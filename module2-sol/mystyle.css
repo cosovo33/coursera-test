@@ -42,15 +42,15 @@ body{
     background-color: darkolivegreen;
     border: 2px solid black;
 }
-#section1 > h3{
+#section1 > section header{
     background-color: chocolate;
     border: 1px solid black;
 }
-#section2 > h3{
+#section2 > section header{
     background-color: grey;
     border: 1px solid black;
 }
-#section3 > h3{
+#section3 > section header{
     background-color: crimson;
     border: 1px solid black;
 }

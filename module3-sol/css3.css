@@ -1,3 +1,38 @@
 html{
+    text-align: center;
+}
+body{
+    background-color: azure;
+}
+#blog-text{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    background-color: lightslategray;
+}
+#contain{
+    width: 100%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.txt,.txt1{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    font-weight: 700; position: relative;
+    top: 0; 
+    margin-bottom: 10px;
+}
+.txt{
+    text-transform: uppercase;
+    font-weight: 900;
     
+}
+@media (min-width: 922px) {
+
+} 
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+
 }

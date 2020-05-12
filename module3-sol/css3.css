@@ -1,32 +1,60 @@
-html{
-    text-align: center;
-}
+
 body{
     background-color: azure;
 }
+#navbar-header{
+    background-color: rgb(74, 85, 95);
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+}
+.navbar-brand > span {
+    color: black;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+div.container{
+    
+    width: 100%;
+    
+}
+#button{
+    border-color: black;
+    background-color: lightslategray;
+}
+#button span{
+    background-color: black;
+}
+
 #blog-text{
     width: 100%;
     padding: 0px 10px 10px 10px;
-    background-color: lightslategray;
+    background-color: rgb(74, 85, 95);
+    color: aliceblue;
 }
 #contain{
     width: 100%;
-    margin: 10px 10px;
-    padding: 10px 10px;
+    padding: 0;
 }
 .txt,.txt1{
-    text-align: center;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     font-weight: 700; position: relative;
     top: 0; 
     margin-bottom: 10px;
+    color: black;
 }
 .txt{
     text-transform: uppercase;
     font-weight: 900;
     
 }
+#nav-list li {
+    color: whitesmoke;
+    font-size: medium;
+}
+
 @media (min-width: 922px) {
 
 } 

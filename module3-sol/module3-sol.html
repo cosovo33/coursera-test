@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="text-center">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +12,40 @@
     <section id="contain" class="container-fluid">
         <section id="head">
             <header>
-
+                <nav class="navbar navbar-default" id="navbar-header">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <div class="navbar-brand">
+                                <span>Food,LLC</span>
+                            </div>
+                            
+                            <button type="button" id="button" class="navbar-toggle collapsed visible-xs " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar "></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        
+                        </div>
+                        <div id="collapsable-nav" class="collapse navbar-collapse">
+                            <ul id="nav-list" class="nav navbar-nav navbar-right  visible-xs">
+                             <li>
+                               <div>Chicken</div>
+                             </li>
+                             <li>
+                                <div>Beef</div>
+                             </li>
+                             <li>
+                                <div>Sushi</div>
+                             </li>
+                           </ul><!-- #nav-list -->
+                         </div><!-- .collapse .navbar-collapse -->
+                    </div><!-- .container -->
+                </nav>
             </header>
         </section> <!--end of head section-->
         <section calss="container" class="col-md-12 col-sm-12 col-xs-12">
-            <section class="txt">Our menu</section>
+            <section class="txt ">Our menu</section>
             <section id="blog-text" >
                 <section class="txt1"><span>Chicken</span></section>
                 Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -89,5 +118,7 @@
             </section><!--end of blog-text section-->
         </section><!--end of wrapping section-->
     </section><!--end of contain section-->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
 </body>
 </html>
